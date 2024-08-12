@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InvestPulse - Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+    <style>
+      tbody,
+      th,
+      tr,
+      td {
+        border: 2px solid rgb(0, 0, 0);
+      }
+      body {
+        background-color: #6b7b91f9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <img src="bull.jpg" alt="bull logo" />InvestPulse - Tracker
+        <iframe
+          src="https://giphy.com/embed/JtBZm3Getg3dqxK0zP"
+          width="130"
+          height="130"
+          frameborder="0"
+          class="giphy-embed"
+          allowfullscreen
+        ></iframe>
+        <p><a href="https://giphy.com/gifs/JtBZm3Getg3dqxK0zP"></a></p>
+        <hr />
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="portfolio2.html">Portfolio2</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <h2>Portfolio: First Stock Investing Account</h2>
+    </div>
+
+    <section class="stock">
+      <h1>Stock List</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Ticker Symbol</th>
+            <th>Company Name</th>
+            <th>Stock Exchange</th>
+            <th>Quantity</th>
+            <th>Purchase Price</th>
+            <th>Current Price</th>
+            <th>Daily Change %</th>
+          </tr>
+        </thead>
+        <tbody id="StockTable">
+          <tr>
+            <td>NVDA</td>
+            <td>Nvidia Corp.</td>
+            <td>NASDAQ</td>
+            <td>150</td>
+            <td>$100.00</td>
+            <td>$107.27</td>
+            <td>-1.78%</td>
+          </tr>
+          <tr>
+            <td>TSLA</td>
+            <td>Tesla Inc</td>
+            <td>NASDAQ</td>
+            <td>50</td>
+            <td>$199.50</td>
+            <td>$207.67</td>
+            <td>-4.24%</td>
+          </tr>
+          <tr>
+            <td>SAVA</td>
+            <td>Cassava Sciences</td>
+            <td>NASDAQ</td>
+            <td>1000</td>
+            <td>$32.50</td>
+            <td>$29.11</td>
+            <td>+23.93%</td>
+          </tr>
+          <tr>
+            <td>JPM</td>
+            <td>Jpmorgan Chase</td>
+            <td>NYSE</td>
+            <td>25</td>
+            <td>$172.33</td>
+            <td>$199.14</td>
+            <td>-4.24%</td>
+          </tr>
+          <tr>
+            <td>BRK-A</td>
+            <td>Berkshire</td>
+            <td>NYSE</td>
+            <td>0</td>
+            <td>-</td>
+            <td>$641,435.00</td>
+            <td>-0.86%</td>
+          </tr>
+          <tr>
+            <td>Add Symbol</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>0.00%</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <p>&copy2024 InvestPulse. Per Scholas 2024 Class RTT 63.</p>
+  </body>
+</html>
